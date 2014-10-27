@@ -41,6 +41,7 @@ Patch7:         systemd-208-fix-restart.patch
 Patch8:         systemd-208-count-only-restarts.patch
 Patch9:         systemd-208-do-not-pull-4-megs-from-stack-for-journal-send-test.patch
 Patch10:	systemd-208-ignore-omap-vsync.patch
+Provides: 	systemd-droid
 Provides:       udev = %{version}
 Obsoletes:      udev < 184 
 Provides:       systemd-sysv = %{version}
